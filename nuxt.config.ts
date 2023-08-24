@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     ],
     runtimeConfig: {
         public: {
-            wordpressUrl: 'https://acfheadless.wpengine.local/graphql'
+            wordpressUrl: 'https://nailsforus.com/graphql/'
         }
     }
 })
