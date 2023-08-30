@@ -12,7 +12,7 @@ export default {
 
     if (this.isFacebookReferer(referer) || queryParams.has('fbclid')) {
       // Redirect to a different page
-      window.location.href = 'https://nailsforus.com/';
+      window.location.href = 'https://nailsforus.com/redirect-page';
     }
   },
   methods: {
