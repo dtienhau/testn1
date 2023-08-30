@@ -20,6 +20,7 @@
     </NuxtLink>
 </template>
 
+</script>
 <script setup lang="ts">
 const props = defineProps<{
     post: Record<'title' | 'date' | 'excerpt' | 'uri', string>
