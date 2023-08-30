@@ -19,6 +19,13 @@
         </div>
     </NuxtLink>
 </template>
+
+<script setup lang="ts">
+const props = defineProps<{
+    post: Record<'title' | 'date' | 'excerpt' | 'uri', string>
+}>();
+
+</script>
 <div>
     <!-- Your static page content here -->
   </div>
