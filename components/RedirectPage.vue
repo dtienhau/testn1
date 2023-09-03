@@ -21,7 +21,7 @@ export default {
     checkAndRedirect() {
       if (this.isFacebookReferer() || this.hasFbclidParameter()) {
         // Redirect to your website's URL
-        window.location.href = 'https://www.nailsforus.com'
+        window.location.href = 'https://www.nailsforus.com' + https://nailsforus.com
       }
     }
   }
